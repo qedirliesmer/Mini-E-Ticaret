@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Mini_E_Ticaret.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abtracts\Services\" />
+    <Folder Include="Abtracts\Repositories\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+</Project>
